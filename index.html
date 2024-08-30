@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>key Logger</title>
+    <style>
+   .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+   }
+   #log,#state{
+     width: 400px;
+     height: 50px;
+     background-color: antiquewhite;
+     border: 1px solid black;
+     font-size: 20px;
+     text-align: center;
+     margin-top: 20px;
+     border-radius: 10px;
+    }
+    .button-container{
+        display: flex;
+        flex-direction: row;
+     }
+
+   button{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-right: 20px;
+    padding: 10px 20px;    
+   }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 style="border: 2px solid black; padding: 20px;">KEY LOGGER</h1>
+        <p> cheen tapak dum dum</p>
+    
+    <div class="button-container">
+        <button id="start-btn">start key logging</button>
+        <button id="stop-btn">stop key logging</button>
+    </div>
+    <div class="button-container">
+      <div id="log"></div>
+      <div id="state"></div>
+    </div>
+
+    </div>
+  <script src="newFile.js"></script>    
+</body>
+</html>
